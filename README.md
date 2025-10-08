@@ -51,6 +51,21 @@ Model Evaluation: Assess performance using metrics such as accuracy, precision, 
 
 Analysis: Examine the model’s performance across different cuisines and identify any challenges or biases.
 
+TASK 4
+
+Objective:
+Conduct a geographical analysis of the restaurants in the dataset.
+
+Steps:
+
+Data Exploration & Visualization: Examine the latitude and longitude of restaurants and visualize their distribution on a map.
+
+Grouping & Analysis: Group restaurants by city or locality to analyze their concentration in different areas.
+
+Statistical Analysis: Calculate metrics such as average ratings, cuisines, and price ranges for each city or locality.
+
+Insights Discovery: Identify interesting patterns or insights related to restaurant locations.
+
 
 
 
