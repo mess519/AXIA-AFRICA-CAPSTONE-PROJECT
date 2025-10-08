@@ -66,6 +66,15 @@ Statistical Analysis: Calculate metrics such as average ratings, cuisines, and p
 
 Insights Discovery: Identify interesting patterns or insights related to restaurant locations.
 
+LIBRARIES
+
+matplotlib, pandas , seaborn , numpy , scikit-learn
+
+DATA PREPROCESSING
+
+Cuisines had 9 null values. So dropped
+Removed features that will inhibit model performance
+
 
 
 
