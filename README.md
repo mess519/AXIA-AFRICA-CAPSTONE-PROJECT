@@ -19,6 +19,21 @@ Model Evaluation: Assess the model’s performance on the testing data using reg
 
 Results Interpretation: Analyze the model to identify and understand the most influential features affecting restaurant ratings.
 
+TASK 2
+
+Objective:
+Develop a restaurant recommendation system tailored to user preferences.
+
+Steps:
+
+Data Preprocessing: Handle missing values and encode categorical variables.
+
+Define Recommendation Criteria: Identify factors for recommendations, such as cuisine type and price range.
+
+Implement Recommendation Model: Use a content-based filtering approach to suggest restaurants that match users’ preferences.
+
+Testing & Evaluation: Test the system with sample user preferences and assess the quality of the recommendations.
+
 
 
 
