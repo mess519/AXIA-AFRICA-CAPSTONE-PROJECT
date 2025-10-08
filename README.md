@@ -34,6 +34,23 @@ Implement Recommendation Model: Use a content-based filtering approach to sugges
 
 Testing & Evaluation: Test the system with sample user preferences and assess the quality of the recommendations.
 
+TASK 3
+
+Objective:
+Build a machine learning model to classify restaurants according to their cuisines.
+
+Steps:
+
+Data Preprocessing: Handle missing values and encode categorical variables.
+
+Data Splitting: Divide the dataset into training and testing sets.
+
+Model Selection & Training: Choose a classification algorithm (e.g., logistic regression, random forest) and train it on the training data.
+
+Model Evaluation: Assess performance using metrics such as accuracy, precision, and recall on the testing data.
+
+Analysis: Examine the model’s performance across different cuisines and identify any challenges or biases.
+
 
 
 
