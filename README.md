@@ -75,6 +75,22 @@ DATA PREPROCESSING
 Cuisines had 9 null values. So dropped
 Removed features that will inhibit model performance
 
+MODEL EVALUATION
+
+My restaurant rating prediction model achieved an R² score of 0.94. Among the algorithms tested, Random Forest outperformed Logistic Regression in predicting restaurant ratings.
+
+INSIGHTS FROM EDA
+
+Restaurants with higher prices tend to have better ratings.
+
+The geospatial distribution of restaurants was visualized on a map using their coordinates.
+
+New Delhi has the highest concentration of restaurants.
+
+‘North Indian’ is the most popular cuisine overall.
+
+
+
 
 
 
