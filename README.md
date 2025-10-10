@@ -4,94 +4,59 @@ PREDICTING RESTAURANT , RECOMMENDATION AND ANALYSIS USING MACHINE LEARNING MODEL
 
 This repository contains my final project for Axia Africa, completed in April 2025. The project involved working with a large restaurant dataset, where my main goal was to build a model to predict restaurant ratings and extract meaningful insights from the data. My regression model achieved an accuracy of 94%, with further details provided below.
 
-TASK 1
+**Dataset Summary**
 
-Objective:
-Develop a machine learning model to predict a restaurant's aggregate rating based on its other features.
+9551 rows and 21 columns
 
-Steps:
+9 missing values removed
 
-Data Preprocessing: Handle missing values, encode categorical variables, and split the dataset into training and testing sets.
+No duplicate entries
 
-Model Selection & Training: Choose a regression algorithm (e.g., linear regression, decision tree regression) and train it on the training data.
+**Descriptive Statistics**
 
-Model Evaluation: Assess the model’s performance on the testing data using regression metrics such as Mean Squared Error (MSE) and R-squared.
+Most common cuisine: North Indian (936 restaurants)
 
-Results Interpretation: Analyze the model to identify and understand the most influential features affecting restaurant ratings.
+City with most restaurants: New Delhi (5,473 restaurants)
 
-TASK 2
+**Geospatial Analysis**
 
-Objective:
-Develop a restaurant recommendation system tailored to user preferences.
+New Delhi had the highest number of restaurants (bar chart analysis)
 
-Steps:
+Country-wise: Country code 1 had the most restaurants, followed by code 216
 
-Data Preprocessing: Handle missing values and encode categorical variables.
+Correlation: No correlation between latitude and ratings; longitude shows a negative correlation
 
-Define Recommendation Criteria: Identify factors for recommendations, such as cuisine type and price range.
+**Table & Online Booking Analysis**
 
-Implement Recommendation Model: Use a content-based filtering approach to suggest restaurants that match users’ preferences.
+12.12% of restaurants offer table booking; 25.66% offer online delivery
 
-Testing & Evaluation: Test the system with sample user preferences and assess the quality of the recommendations.
+Average rating for restaurants with table booking: 3.44 vs 2.56 for those without
 
-TASK 3
+Online delivery performs best for medium-priced food range
 
-Objective:
-Build a machine learning model to classify restaurants according to their cuisines.
+**Price Analysis**
 
-Steps:
+Restaurants with price rating 4 have the highest average rating (3.81)
 
-Data Preprocessing: Handle missing values and encode categorical variables.
+Most restaurants have high average ratings
 
-Data Splitting: Divide the dataset into training and testing sets.
+Most common price range :1
 
-Model Selection & Training: Choose a classification algorithm (e.g., logistic regression, random forest) and train it on the training data.
+**Restaurant Insights**
 
-Model Evaluation: Assess performance using metrics such as accuracy, precision, and recall on the testing data.
+Highest average ratings by cuisine: Italian
 
-Analysis: Examine the model’s performance across different cuisines and identify any challenges or biases.
+Most votes by cuisine: North Indian (53,747 votes)
 
-TASK 4
+Fast food shows consistent ratings
 
-Objective:
-Conduct a geographical analysis of the restaurants in the dataset.
+**Machine Learning Analysis**
 
-Steps:
+Models used to predict restaurant aggregate ratings: Linear Regression, Decision Tree, Random Forest
 
-Data Exploration & Visualization: Examine the latitude and longitude of restaurants and visualize their distribution on a map.
+Linear Regression: MSE ≈ 1.6276, R² ≈ 0.2893
 
-Grouping & Analysis: Group restaurants by city or locality to analyze their concentration in different areas.
+Decision Tree: MSE ≈ 0.2070, R² ≈ 0.9096
 
-Statistical Analysis: Calculate metrics such as average ratings, cuisines, and price ranges for each city or locality.
-
-Insights Discovery: Identify interesting patterns or insights related to restaurant locations.
-
-LIBRARIES
-
-matplotlib, pandas , seaborn , numpy , scikit-learn
-
-DATA PREPROCESSING
-
-Cuisines had 9 null values. So dropped
-Removed features that will inhibit model performance
-
-MODEL EVALUATION
-
-My restaurant rating prediction model achieved an R² score of 0.94. Among the algorithms tested, Random Forest outperformed Logistic Regression in predicting restaurant ratings.
-
-INSIGHTS FROM EDA
-
-Restaurants with higher prices tend to have better ratings.
-
-The geospatial distribution of restaurants was visualized on a map using their coordinates.
-
-New Delhi has the highest concentration of restaurants.
-
-‘North Indian’ is the most popular cuisine overall.
-
-
-
-
-
-
+Random Forest: MSE ≈ 0.1305, R² ≈ 0.9430 → Best performing model
 
